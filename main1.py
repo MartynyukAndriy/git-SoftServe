@@ -48,6 +48,7 @@ while user_age == 0:
         if user_age < 0:
             user_age = 0
             print("Please, type your current age")
+
         elif user_age > 0 and user_age < 18:
             print("You just starting your path. Welcome,", user_name, "!")
         else:
@@ -89,3 +90,5 @@ print("a*b", a*b)
 print("a//b", a//b)
 print("a%b", a % b)
 print("a**b**c", a**b**c)
+
+print("Hello, Hub")
